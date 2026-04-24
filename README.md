@@ -1,4 +1,4 @@
-#Sensor and Room Management API Smart Campus
+##Sensor and Room Management API Smart Campus
 
 A REST API built with JAX-RS (Jersey 3) and Grizzly for managing campus rooms, sensors, and sensor readings. Data is stored in memory using ConcurrentHashMap and ArrayList.
 
