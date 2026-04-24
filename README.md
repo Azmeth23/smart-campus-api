@@ -1,4 +1,4 @@
-##Sensor and Room Management API Smart Campus
+## Sensor and Room Management API Smart Campus
 
 A REST API built with JAX-RS (Jersey 3) and Grizzly for managing campus rooms, sensors, and sensor readings. Data is stored in memory using ConcurrentHashMap and ArrayList.
 
@@ -25,14 +25,15 @@ API returns 409 when deleting a room that still has sensors, 422 when a sensor r
 ## Build and Run
 
 
-1. Clone the repository and 
-
-2. Build:
+1. Clone the repository
 ```bash
-cd cw/smart-campus-api
+git clone https://github.com/Azmeth23/smart-campus-api.git
+```
+2.Get into the project's folder next to the pom.xml file and begin
+```bash
+cd smart-campus-api
 mvn clean package
 ```
-
 3. Start the server:
 
 ```bash
@@ -187,3 +188,4 @@ With 10+ resource methods across 3 resource classes, manual logging means copyin
 References:
 Payara, 2025. Nugget Friday: Mastering Jakarta REST Filter Chains. Available at: https://payara.fish/blog/nugget-friday-mastering-jakarta-rest-filter-chains/ [Accessed 23 Apr. 2026].
 YouTube. Available at: https://www.youtube.com/watch?v=nDW6DQSNrIY [Accessed 23 Apr. 2026].
+
